@@ -1,0 +1,75 @@
+.sec2 ,.sec1, main{
+	clear: both;
+}
+
+header{
+	background-color: #B8CB22;
+	padding: 3%;
+}
+body {
+	background-image: url("img/fond.png");
+
+}
+nav{
+	    padding: 53px 0;
+	    margin-left: 53%;
+}
+footer {
+	text-align: center;
+}
+footer img {
+	display: block;
+}
+.red {
+	color: red;
+}
+
+img {
+	float: left;
+	margin-right: 18px;
+
+}
+
+ .readmore{
+ 	background-color: #B8CB22;
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 10px;
+ 	float: right;
+ }
+ .img{
+ 	width: 30%;
+ }
+ 
+header, main{
+	width: 50%;
+	margin:auto;
+	text-transform: capitalize;
+}
+main{
+	background-color: white;
+	padding: 3%;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+.img1 {
+	float: none;
+}
+h2 , nav {
+	color: #B8CB22;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+.LOCATION , .ABOUTUS , .CONTACT{
+margin-right: 13%;
+color: #2C4724;
+font-size: 1.3em ;
+}
+

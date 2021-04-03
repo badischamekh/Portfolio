@@ -1,0 +1,169 @@
+body {
+	background-image: url(img/fond.png);
+}
+/** header****/
+header {
+	background-color: #38B1B2;
+	margin-bottom: 5%;
+    margin-top: 5%;
+    border: 3px solid #2F9AA0;
+}
+.img1 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline-block;
+     padding:10px;
+   
+     font-size: 1.3em;
+}
+.nav a{
+    text-decoration: none;
+     color: white;
+   
+}
+
+
+/****Main ****/
+
+h1, h2,h3,h4, h5 , nav a{
+font-family: 'Slabo 27px', serif;
+}
+main {
+	min-width: 800px;
+	max-width: 1100px;
+	margin:auto;
+}
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+   
+   }
+h2 {
+	text-align: center;
+	font-size: 3.5em;
+	
+	  }
+h3{
+	text-align: center;
+font-size: 1.8em;
+
+}
+h4 {
+	font-size: 1.4em;
+
+	color: white;
+}
+h5 {
+	margin-bottom: 10px;
+    margin-top: 10px;
+    color: #B6DEDC;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+.p1 {
+	text-align: center;
+}
+.sec2{
+	    display: inline-block;
+    margin-top: 150px;
+}
+
+.sec3 {
+	display: inline-block;
+	width: 70%;
+	background-color: #B6DEDC;
+	box-sizing: border-box;
+	clear: both;
+}
+strong {
+	font-weight: 520;
+}
+
+aside {
+	
+    display: inline-block;
+    width: 25%;
+    background-color: #38B1B2;
+    margin-bottom: 5%;
+    margin-left: 10px;
+    border: 3px solid #2F9AA0;
+    box-sizing: border-box;
+    vertical-align: top; 
+    padding: 3px; 
+}
+.sec3 article {
+	display:inline-block;
+	width: 50%;
+	box-sizing: border-box;
+	vertical-align: top;
+	  }
+
+
+	article a {
+float: right;
+background-color: #2F9AA0;
+color: white;
+text-decoration: none;
+padding: 10px
+}
+span {
+	color: #2F9AA0;
+}
+
+.img2 {
+	float: left;
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    margin-right: 10px;
+}
+.img3 {
+	padding-right: 0px;
+    margin-left: 170px;
+    margin-top: -150px;
+}
+.fas {
+	
+	color: white;
+	
+}
+
+aside p {
+	color: white;
+
+}
+article {
+	padding: 10px;
+}
+h3 .fas {
+	color: #38B1B2;
+}
+aside .fas {
+	color: #B6DEDC;
+}
+/**** footer****/
+
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}

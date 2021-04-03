@@ -1,0 +1,245 @@
+@font-face{
+	font-family: "Bodega";
+	src:url('fonts/BodegaSans_Black.ttf');
+}
+
+html {
+    font-size: 62.5%;
+}
+/*body*/
+body {
+
+}
+
+header {
+	    background: linear-gradient(135deg, rgba(255,255,255,1) 12%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 39%,rgba(255,255,255,1) 50%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    	font-family: "Bodega";
+}
+
+
+body{
+	background-image: url(img/bg_body.svg);
+    background-size: auto;
+    background-color: #444444;
+}
+main {
+	    width: 80%;
+    margin: auto;
+}
+video , main img {
+	width: 100%;
+}
+/*header*/ 
+
+.nav1 {
+	    display: flex;
+    flex-direction: column;
+}
+.nav1 a {
+	    text-decoration: none;
+    text-align: right;
+    color: white;
+    font-size:  2.5rem;
+    font-weight: 700;
+    margin-top: 15%;
+
+}
+/*main*/ 
+
+/*section 1 */
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    	font-family: "Bodega";
+
+}
+span {
+	color: #F99D02;
+
+}
+/*.section1 img {
+	width: 100%;
+    height: 100%;
+}
+.section1 li {
+	    width: 80%;
+    float: right;
+    margin-right: 0%;
+}*/
+div.flexslider {
+	width: 100%;
+    }
+/*section2*/
+.section2 article {
+	  width: 20%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+h2 {
+	color: white;
+    text-align: left;
+    font-size: 3rem;
+    border-left: solid black;
+    border-top: solid black;
+font-family: "Bodega";
+}
+h3 {
+	color: #F99D02;
+	text-align: center;
+	font-family: "Bodega";
+	font-size:  2.5rem;
+}
+h4 {
+	font-size: 2rem;
+	font-family: "Bodega";
+}
+.section2 a {
+	background-color: #F99D02;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 2% 20%;
+
+}
+.section2 hr {
+	    border: 1px solid #F99D02;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.section2 p {
+	color: black;
+}
+/*section3*/
+.section3 {
+	    display: flex;
+}
+ p {
+	color: white;
+	font-size: 1.3rem;
+}
+.article1 {
+	    margin-right: 10%;
+}
+i {
+	content: "\f082";
+    font-size: 500%;
+    color: white;
+   margin-right: 20%;
+
+}
+/*footer*/
+.section4 {
+	font-family: "Bodega";
+	text-align: center;
+    /* color: white; */
+    color: #D0D0D0;
+}
+.nav2 a {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+/* LICENCE */
+#licence {
+	font-family: "Bodega";
+    display: block;
+    text-align: center;
+    padding: 25px;
+    background-color: #444444;
+        color: white;
+}
+
+#licence img {
+    width: 50px;
+}
+small {
+	color: white;
+}
+
+
+/*screen of mobile @media */
+
+
+ @media screen and (max-width:767px)
+ {
+.nav a {
+	margin-top: 60%;
+    margin-right: 17%;
+
+ }
+.nav1 {text-decoration: none;
+    text-align: right;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 38%;
+}
+header {margin: 10%;
+    padding: 2% 0%;}
+/*header img {
+	margin-bottom: 70%;
+    width: 200%;
+
+}*/
+
+h1 , h2 {
+	    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin-left: 25%;
+
+    font-size: 4rem;
+}
+
+.section2 {
+	display: flex;
+    flex-direction: column;
+}
+ .section2 p , .section2 a {
+	font-size: 4rem;
+}
+
+.section2 article {
+	    width: 100%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+.section3 {
+	    display: flex;
+    flex-direction: column;
+}
+.section3 p {
+	font-size: 3.3rem;
+    margin-bottom: 8%;
+}
+.fab.fa-linkedin{
+	    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+
+}
+.fab.fa-facebook-square{
+	    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+
+}
+.fab.fa-twitter-square {
+	    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+
+}
+video {
+	    width: 70%;
+	        margin-top: 10%;
+    margin-left: 10%;
+}
+}

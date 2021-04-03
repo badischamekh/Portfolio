@@ -1,0 +1,176 @@
+html {
+	font-size: 62.5%;
+}
+body , head {
+	background-color: #F2F1F4;
+}
+body {
+	width: 80%;
+	margin: auto;
+}
+/*header*/
+
+
+
+header img {
+	 margin-left: 40%;
+    width: 8%;
+}
+nav{
+    background-color: #37AC94;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+nav a{
+	display: inline-block;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.6rem;
+}
+
+/*.notrevision , .nosengagements , .votreprojet{
+	text-align: center;
+    color: white;
+    padding: 2%;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+*/
+/*main*/
+
+
+
+
+.sec1 {
+	    width: 70%;
+    text-align: left;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+	text-align: left;
+    color: #37AC94;
+    font-size: 4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+h2 {
+	font-family:'Open Sans Condensed', sans-serif;
+
+	font-size: 2rem;
+	text-align: left;
+    color: #37AC94;
+}
+p {font-size: 1.6rem;
+    font-family: 'PT Sans Narrow' , sans-serif;
+    word-spacing: 1px;
+    text-indent: initial;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+.sec1 img {
+	    width: 98%;
+}
+aside {
+	    width: 30%;
+   display: inline-block;
+    background-color: #B8DCB1;
+    box-sizing: border-box;
+    vertical-align: top;
+        padding: 2%;
+}
+hr {  
+    margin-right: 1%;
+    border: 1px solid #37AC94;
+}
+
+article a {
+	text-decoration: none;
+	color: #37AC94; 
+}
+.article1 {
+	margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+#licence img {
+    width: 50px;
+}
+footer a {
+	color: #37AC94;
+}
+
+
+/************Tablette*********/
+@media screen and (min-width:768px) and (max-width:1023px) {
+   
+ nav a{
+ 	display: block;
+ 	margin: auto;
+ 	width:50%;
+ }
+
+.sec1 {
+	width: 100%
+}
+aside {
+	width: 100%
+}
+header img {
+	 margin-left: 45%;
+  } 
+   }
+   /***mobile**/
+   @media screen and (max-width:768px)
+   {
+   	aside{
+   		display: none;
+   	}
+   	.sec1 {
+	width: 100%
+}
+   }
+
+
+
+
+
+
+
+
+
+  /*
+  @media screen and (max-width:768px){
+
+  }
