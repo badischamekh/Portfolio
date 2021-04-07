@@ -1,0 +1,116 @@
+/* header */
+header {
+background-image: url(img/fond.jpg);
+background-size : cover;
+background-repeat: no-repeat;
+background-position: bottom;
+    margin-top: -2%;
+    
+}
+
+li { 
+	text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+        margin-right: 3%;
+}
+
+h1 {     padding: 173px;
+    text-align: center;
+    color: white;
+  }
+ li a , .essai {
+  	text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+ul {
+	text-align: center;
+	    padding: 20px;
+}
+
+
+
+
+/* Main */
+h1 , ul , h2 , h3  {
+  font-family: Kaushan Script, cursive;
+  font-size: 2em;
+}
+p {
+  font-family: 'Playfair Display', serif;
+  word-spacing: 1px;
+  text-transform: uppercase;
+}
+.img1 {
+  float: left;
+  margin-right: 15px;
+}
+.img2{
+  float: right;
+  margin-left: 15px;
+}
+h2 {
+  text-align: center;
+}
+
+
+.article2 {
+      display: inline-block;
+    clear: both;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+ hr {
+  clear: both;
+ }
+.sec2 {
+
+  background-image: url(img/background_section.jpg);
+  background-repeat: no-repeat;
+  background-size : cover;
+  background-position: bottom;
+  
+}
+.sec2 article{
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 3%;
+}
+.sec2 p {
+  text-indent: 10px;
+    text-align: center;
+    color: white;
+}
+.sec2 img {
+  width: 40%;
+  margin-left: 25%;
+}
+h3 {
+  color: white;
+    text-align: center;
+    margin-right: 8%;
+}
+
+
+
+/*Footer*/
+
+footer {
+  background-image: url(img/background_section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}

@@ -1,0 +1,35 @@
+<table class="generic-table">
+    <?php if (empty($basketItems)) : ?>
+        <tbody>
+            <tr>
+                <td class="basket-empty">Votre Panier est vide pour l'intsant</td>
+              
+            </tr>
+        </tbody>
+    <?php else : ?>
+        <thead>
+            <tr>
+                <th class="number">Quantité</th>
+                <th>Produit</th>
+                <th class="number">Prix Unitaire</th>
+                <th class="number">Prix Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($basketItems as $key=> $item) : ?>
+                <tr>
+                    <td class="number"><?= $item['quantity'] ?></td>
+                    <td><?= $item['name'] ?></td>
+                    <td class="number"><?= number_format($item['salePrice'], 2) ?> €</td>
+                    <td class="number"><?= number_format($item['salePrice'] * $item['quantity'], 2) ?> €</td>
+                    <td>
+                        <button  class="delete-Item button button-cancel small" title="Supprimer <?= $item['name'] ?>" data-id='<?= $item['mealId']?>'>
+                            <i class="fa fa-trash"></i>
+                        </button>
+
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    <?php endif; ?>
+</table>

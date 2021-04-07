@@ -1,0 +1,127 @@
+
+
+/* header */
+header {
+background-image: url(img/fond.jpg);
+background-size : cover;
+    
+}
+
+li { 
+	text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+        margin-right: 3%;
+}
+
+h1 {     padding: 173px;
+    text-align: center;
+    color: white;
+    
+
+  }
+ li a , .essai {
+  	text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+ul {
+	text-align: center;
+	    padding: 20px;
+}
+
+/* main */
+h2 {
+	    text-align: center;
+}
+.validation {
+	text-align: center;
+    margin-top: -13px;
+    margin-bottom: 21px;
+}
+.sec1 {
+	text-align: -webkit-center;
+}
+.sec2 {
+	text-align: center;
+}
+#internet {
+ text-align: left;
+   }
+h1 , ul , thead , caption {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+}
+tbody {
+	font-family: 'Playfair Display', serif;
+}
+em {
+	font-size: x-large;
+}
+.sec2 caption {
+	font-size: 2em;
+}
+tr td:nth-child(3){
+	color: #C4A5DE;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 90%;
+  
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+thead {
+	text-align: left;
+}
+#option {
+	text-align: left;
+	padding-right: 80%;
+}
+
+form label {
+	display: inline-block;
+}
+
+
+
+th {
+	background-color: #C4A5DE;
+	color: white;
+	padding: 1%;
+}
+tr:nth-child(even){
+	background-color: #F2F2F2;
+}
+fieldset {
+	margin-top: 50px;
+} 
+.envoyer {
+	margin-top: 50px; 
+	background-color: #8B5BC1;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+	background-image: url(img/background_section.jpg);
+}
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}

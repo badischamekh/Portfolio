@@ -1,0 +1,61 @@
+<h2><i class="fa fa-shopping-cart"></i> Passer une commande</h2>
+
+<form data-validation class="generic-form " id="order-form" data-order-step="run">
+
+    <!-- Champ caché stockant le prix de vente du produit alimentaire sélectionné -->
+    <input type="hidden" name="salePrice">
+
+    <aside class="error-message hidden">
+        <h3><i class="fa fa-warning"></i> Il y a <em id="total-error-count">1</em> erreur(s) dans le formulaire !</h3>
+        <p></p>
+    </aside>
+
+    <fieldset id="taille-image">
+        <legend>Ajouter un article</legend>
+        <ul>
+            <li>
+                <label for="meal">Nom :</label>
+                <select id="meal" name="meal">
+                    <?php foreach($meals as $meal): ?>
+                    <option value="<?= $meal['Id'] ?>"><?= $meal['Name'] ?></option>
+                    <?php endforeach; ?>
+                </select>
+                <article id="meal-details" class="meal-details no-left-label">
+                    <img src="<?= $wwwUrl?>/images/meals/<?= $meals['0']['Photo'] ?>" alt="Photo du produit">
+                    <p><?= $meals['0']['Description'] ?></p>
+                    <span>Prix : <strong><?= $meals['0']['SalePrice'] ?></strong></span>
+                </article>
+            </li>
+            <li>
+                <label for="quantity">Quantité :</label>
+                <input id="quantity" class="quantity" type="text" data-type="positive-integer" data-required
+                    name="quantity" data-name="Quantité">
+                <strong id="alert"></strong>
+            </li>
+            <li>
+                <button id="Ajouter" class="button button-primary no-left-label" type="submit">Ajouter</button>
+            </li>
+        </ul>
+    </fieldset>
+</form>
+<fieldset>
+    <legend>Récapitulatif de la commande</legend>
+    <section id="order-summary">
+        <center>
+            <h3 class="vide-panier"></h3>
+        </center>
+    </section>
+</fieldset>
+
+
+<ul class="link-list">
+    <li>
+        <button id="validate-order" class="button button-primary" disabled>Valider la commande</button>
+        <a class="button button-cancel" href="<?= $requestUrl ?>">Annuler</a>
+    </li>
+</ul>
+
+
+<!-- Classes de gestion du formulaire de commande -->
+<script src="<?= $wwwUrl ?>/js/classes/basketSession.class.js"></script>
+<script src="<?= $wwwUrl ?>/js/classes/OrderForm.class.js"></script>

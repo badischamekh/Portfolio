@@ -1,0 +1,292 @@
+body {
+	background-image: url(img/fond.png);
+}
+header {
+	display: flex;
+	justify-content: space-around;
+	color: #989896;
+	padding: 5%;
+}
+*{
+	font-family: 'Bree Serif', serif;
+	color: #727272;
+	font-weight: 100 ;
+}
+/*header*/ 
+header img {
+	width: 28%;
+	float: left;
+}
+header nav {
+	        display: flex;
+    flex-direction: row;
+}
+header a {
+	   color: #989896;
+    text-decoration: none;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* float: left; */
+    margin-left: 0%;
+    padding-right: -1%;
+
+}
+/*Main*/
+.section1 {padding: 20%;
+    background-image: url(img/bg_header.png);
+    background-size: cover;
+    width: auto;
+display: flex;
+    flex-direction: column;}
+    h1{
+    	text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+
+    font-weight: 100;
+}
+.section1 p {
+	    color: white;
+    text-align: center;
+    font-size: 18px;
+     font-family: 'Bree Serif', serif;
+}
+span {background-color: #F52758;
+    /* border: antiquewhite; */
+    color: white;
+    padding: 4px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+
+}
+.section1 a {
+	
+  text-align: center;
+  text-decoration: none;
+  
+}
+/*section2*/
+h2 {
+	    font-family: 'Bree Serif', serif;
+    color: #F12B5C;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+}
+.section2 article {
+	display: inline-block;
+    margin-left: 8%;
+    text-align: center;
+}
+hr {
+	font-family: 'Bree Serif', serif;
+    color: #727272;
+    margin: 3% 7%;
+}
+/*section3*/
+.section3 i {
+	display: flex;
+    flex-direction: column;
+    content: "\f0c3";
+    border-radius: 55%;
+    border: 1px solid;
+    padding: 10px;
+    width: 36px;
+    height: 26px;
+    margin: auto;
+}
+
+.section3 article {
+	display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 6% 1%;
+}
+h3 {
+	font-family: 'Bree Serif', serif;
+    /* color: #727272; */
+    color: #F32959;
+        font-size: 20px;
+    font-weight: 100;}
+    /*section4*/
+ h4 {
+ 	font-family: 'Bree Serif', serif;
+    color: #F12B5C;
+    font-weight: 100;
+    text-align: left;
+    font-size: 18px;
+ }   
+.imga {
+	float: right;
+	width: 40%
+}
+.imgb {
+	float: left;
+	width: 40%
+}
+.section4 p {
+	font-family: 'Bree Serif', serif;
+    color: #727272;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.section4 a {
+	text-decoration: none;
+    color: #F12B5C;
+    margin-left: 2%;
+    font-size: 14px;
+}
+.section4 i {
+	color: #F12B5C;
+}
+.section2 , .section3 , .section4 , .section5 {
+	width: 80%;
+	margin: auto;
+}
+/*section5*/ 
+
+
+form{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+input[type="text"]{
+	width:47%;
+	margin:1%;
+	border-radius: 10px;
+	padding:10px 10px 10px 70px;
+	box-sizing: border-box;
+	background-color: transparent;
+}
+input[type="text"]:first-child{
+background-image: url('img/bg_form_name.svg');
+background-repeat: no-repeat;
+background-size: 7%;
+}
+#email {
+background-image: url('img/bg_form_mail.svg');
+background-repeat: no-repeat;
+background-size: 7%;
+}
+#message {
+	background-image: url('img/bg_form_message.svg');
+background-repeat: no-repeat;
+background-size: 5%;
+}
+textarea{
+	width:98%;
+	margin:1%;
+	resize:none;
+	border-radius: 10px;
+	padding:20px 20px 20px 70px;
+	box-sizing: border-box;
+		background-color: transparent;
+}
+#submit {
+	padding: 1%;
+    background-color: #9A9A9A;
+    color: white;
+    margin: 1px;
+
+}
+#submit1 {
+	padding: 1%;
+    background-color: #F02658;
+    color: white;
+    margin: 1px;
+}
+
+
+/*footer*/
+footer a {
+	    font-family: 'Bree Serif', serif;
+    color: #F02658;
+    font-weight: 100;
+    text-decoration: none;
+
+}
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+ /*screen of mobile @media */
+
+
+ 
+ @media only screen and (max-width: 600px) {
+  * {
+  	display: flex;
+  	flex-direction: column;
+  	    margin: auto;
+  }
+  header nav {
+  	flex-direction: column;
+
+  }
+  header p {
+  	font-size: 2rem;
+  }
+  h2 {
+  	    font-size: 30px;
+        margin: 10% 0%;
+  }
+  .section2 article{
+  	padding: 7%;
+  }
+  .section3 article {
+  	    width: 100%;
+    margin: 20% 0%;
+  }
+  h3 {
+  	margin: 10% 0%;
+
+  }
+  h4 {
+  	text-align: left;
+    margin: 6% 0%;
+
+  }
+  .section4 img {
+  	    width: 100%;
+  	        margin: 5% 0%;
+  }
+  .section4 a {
+  	display: block;
+    margin: 2% 0%;
+
+  }
+  .section5 p {
+  	margin: 13% 0%;
+
+  }
+  #nom , #email  {
+  	width: 100%;
+    background-size: 18%;
+  }
+  #message {
+  	    width: 100%;
+    background-size: 20%;
+    text-align: center;
+    padding: 6%;
+  }
+  footer {
+  	    text-align: center;
+    margin: auto;
+    width: 80%;
+
+  }
+
+}

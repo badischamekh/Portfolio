@@ -1,0 +1,59 @@
+<h2><i class="fa fa-cogs"></i> Panneau d'administration</h2>
+
+<form class="generic-form" action="<?= $requestUrl ?>/admin/user" method="POST">
+
+	<fieldset>
+		<legend><i class="fa fa-lock"></i> Historique des commandes</legend>
+		<ul>
+	        <li>
+	        	<table id="table-order">
+	        	<thead>
+	        		<tr>
+	        			<th>Num Com</th>
+	        			<th>Num User</th>
+	        			<th>Date Créa</th>
+	        			<th>Date Succ</th>
+	        			<th>tva</th>
+	        			<th>prix tva</th>
+	        			<th>total</th>
+	        		</tr>
+	        	</thead>
+	        	<tbody>
+				<?php foreach ($orders as $order): ?>
+					<tr>
+						<td>							
+							<!-- <a name="<?= $order['Id'] ?>"><?= $order['Id'] ?></a> -->
+							<?= $order['Id'] ?>
+						</td>
+						<td>
+							<!-- <a name="<?= $order['User_Id'] ?>"><?= $order['User_Id'] ?></a> -->
+							<?= $order['User_Id'] ?>
+						</td>
+						<td>
+							<?= $order['CreationTimestamp'] ?>
+						</td>
+						<td>
+							<?= $order['CompleteTimestamp'] ?>
+						</td>
+						<td>
+							<?= $order['TaxRate'] ?> %
+						</td>
+						<td>
+							<?= $order['TaxAmount'] ?> €
+						</td>
+						<td>
+							<?= $order['TotalAmount'] ?> €
+						</td>
+					</tr>
+					<?php endforeach; ?>
+	        </li>
+	        	</tbody>
+	        	</table>
+		</ul>
+	</fieldset>
+<!-- 	<fieldset>
+		<legend>Détail</legend>
+			<p id="detail-orders"></p>
+	</fieldset> -->
+</form>
+
